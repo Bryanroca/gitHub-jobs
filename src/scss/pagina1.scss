@@ -1,0 +1,137 @@
+.body {
+    display: flex;
+    flex-direction: row;
+
+    .izquierda {
+        padding-left: 50px;
+        padding-right: 50px;
+        padding-top: 50px;
+        width: 30%;
+
+        h1 {
+            font-size: 24px;
+            font-family: var(--font-poping);
+            font-weight: 300;
+
+            .title_text {
+                font-weight: bold;
+            }
+
+        }
+
+        h1 {
+            font-size: 24px;
+        }
+
+        img {
+            height: 30px;
+            width: 30px;
+            background-repeat: no-repeat;
+        }
+
+        h3 {
+            font-size: 14px;
+            color: #1E86FF;
+            font-family: var(--font-poping);
+            font-weight: 500;
+            padding-top: 15px;
+            padding-bottom: 15px;
+        }
+
+        .aplicar {
+            color: #B9BDCF;
+            font-weight: 700;
+            font-size: 14px;
+
+        }
+
+        p {
+            color: #334680;
+            font-weight: 500;
+            font-size: 14px;
+        }
+    }
+
+    .derecha {
+        width: 80%;
+        padding-top: 70px;
+
+        .titulo {
+            color: #334680;
+            height: 28px;
+            font-size: 24px;
+            font-family: 'Roboto';
+            line-height: 28px;
+
+        }
+
+        .horario {
+            border-radius: 4px;
+            border: 1px solid #334680;
+            color: #334680;
+            font-size: 12px;
+            font-family: Roboto;
+            font-weight: 700;
+            padding: 5px;
+        }
+
+        h2 {
+            color: #334680;
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 18px;
+            line-height: 21px;
+
+        }
+
+        .empresa {
+            display: flex;
+            flex-direction: row;
+            padding-top: 35px;
+            padding-bottom: 45px;
+
+            .imagen-datos {
+                display: flex;
+                flex-direction: column;
+            }
+
+            .imagen {
+                height: auto;
+                width: 60px;
+                margin-right: 20px;
+            }
+
+            .compañia {
+                color: #334680;
+                font-size: 18px;
+                font-family: Roboto;
+                font-weight: 700;
+            }
+
+            .ciudad {
+                color: #B9BDCF;
+                font-size: 12px;
+                font-family: Roboto;
+                font-weight: 500;
+                background-image: url('../assets/public_FILL0_wght400_GRAD0_opsz48.svg');
+                background-repeat: no-repeat;
+                background-position: left bottom;
+                padding-left: 25px;
+                background-size: 15px;
+                color: #B9BDCF;
+            }
+        }
+    }
+
+}
+
+.info {
+    width: 80%;
+    color: #334680;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+}
